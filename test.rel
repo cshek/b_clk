@@ -1,0 +1,38 @@
+XL2
+H 9 areas 3 global symbols
+M test
+O -mz80
+S .__.ABS. Def0000
+A _CODE size 28 flags 0 addr 0
+S _main Def0015
+S _delay Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 01 00 00
+R 00 00 00 00
+T 03 00
+R 00 00 00 00
+T 03 00 21 02 00 39 79 96 78 23 9E E2 11 00 EE 80
+R 00 00 00 00 00 0C 00 00
+T 11 00
+R 00 00 00 00
+T 11 00 F0 03 18 EE
+R 00 00 00 00
+T 15 00
+R 00 00 00 00
+T 15 00 01 00 00
+R 00 00 00 00
+T 18 00
+R 00 00 00 00
+T 18 00 79 D3 40 03 C5 21 F4 01 E5 CD 00 00 F1 C1
+R 00 00 00 00 00 0C 00 00
+T 26 00 18 F0
+R 00 00 00 00

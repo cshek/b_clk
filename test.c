@@ -1,5 +1,4 @@
 // test sdcc for z80 trainer
-// master
 __sfr __at 0x40 GPIO1;
 
 void delay(int j)
